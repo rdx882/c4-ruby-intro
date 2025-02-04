@@ -24,25 +24,25 @@ index = 0
 
 tacos = ["carnitas", "carne asada", "pollo", "pescado"]
 
-# loop do
+loop do
 
-#     #stops loop if we reached the end
-#     if index == tacos.length
-#         break
-#     end
+    #stops loop if we reached the end
+    if index == tacos.length
+        break
+    end
 
-#     #retrieves the variable taco = index position
-# taco = tacos[index]
+    #retrieves the variable taco = index position
+taco = tacos[index]
 
-# #then puts tacos out into the world
-# puts "#{taco} tacos!"
+#then puts tacos out into the world
+puts "#{taco} tacos!"
 
-# #without this, infinite loop
-# index = index + 1
+#without this, infinite loop
+index = index + 1
 
-# end
+end
 
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+tacos = ["carnitas", "carne asada", "pollo", "pescado"]
 
 
 #shorter way to do the above - use for.. in statement to both create a variable (you are naming each thing in the tacos array with a single variable) and put it out into the world

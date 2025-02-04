@@ -6,9 +6,19 @@
 # Create a "shared" shopping list with a friend
 # Create two data structures - one for your list of stuff, and one
 # for your friend, e.g. you want milk, eggs, and bacon, and
+
+my_list = ["eggs", "beans", "rice"]
+their_list = ["milk", "cheese", "nuts", "rice"]
+
 # your friend wants beer, cookies, and apples.
 # Programmatically combine the two arrays into a single list,
+
+full_list = my_list + their_list
+
 # sort the result (alphabetically), and write it to the screen.
+
+p full_list.sort.uniq
+
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
